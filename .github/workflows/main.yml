@@ -1,5 +1,5 @@
-on: [push]
-
+name: static analysis review
+on: [pull_request]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
