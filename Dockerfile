@@ -1,6 +1,8 @@
 # Container image that runs your code
 FROM ubuntu:latest
 
+ENV HELLO=WORLD!!
+
 # ENV DEBIAN_FRONTEND=noninteractive \
 #     LC_ALL=en_US.UTF-8 \
 #     LANG=$LC_ALL
