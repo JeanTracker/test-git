@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM ubuntu:latest
+FROM nugulinux/devenv:bionic 
 
 # ENV DEBIAN_FRONTEND=noninteractive \
 #     LC_ALL=en_US.UTF-8 \
